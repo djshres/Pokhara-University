@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Crossover\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Crossover\\.nuget\\packages"
+    ]
+  }
+}
