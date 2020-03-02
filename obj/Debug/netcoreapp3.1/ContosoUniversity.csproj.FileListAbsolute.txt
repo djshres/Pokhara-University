@@ -161,4 +161,6 @@ E:\Microsoft Docs\ContosoUniversity\obj\Debug\netcoreapp3.1\Razor\Views\Students
 E:\Microsoft Docs\ContosoUniversity\obj\Debug\netcoreapp3.1\Razor\Views\Students\Delete.cshtml.g.cs
 E:\Microsoft Docs\ContosoUniversity\obj\Debug\netcoreapp3.1\Razor\Views\Students\Details.cshtml.g.cs
 E:\Microsoft Docs\ContosoUniversity\obj\Debug\netcoreapp3.1\Razor\Views\Students\Edit.cshtml.g.cs
+E:\Microsoft Docs\ContosoUniversity\obj\Debug\netcoreapp3.1\Razor\Views\Students\Previous-Index.cshtml.g.cs
 E:\Microsoft Docs\ContosoUniversity\obj\Debug\netcoreapp3.1\Razor\Views\Students\Index.cshtml.g.cs
+E:\Microsoft Docs\ContosoUniversity\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
