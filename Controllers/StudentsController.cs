@@ -67,6 +67,65 @@ namespace ContosoUniversity.Controllers
             return View(await PaginatedList<Student>.CreateAsync(students.AsNoTracking(), pageNumber ?? 1, pageSize));
         }
 
+        //Another Method For Index
+     //   public async Task<IActionResult> Index(
+     //string sortOrder,
+     //string currentFilter,
+     //string searchString,
+     //int? pageNumber)
+     //   {
+     //       ViewData["CurrentSort"] = sortOrder;
+     //       ViewData["NameSortParm"] =
+     //           String.IsNullOrEmpty(sortOrder) ? "LastName_desc" : "";
+     //       ViewData["DateSortParm"] =
+     //           sortOrder == "EnrollmentDate" ? "EnrollmentDate_desc" : "EnrollmentDate";
+
+     //       if (searchString != null)
+     //       {
+     //           pageNumber = 1;
+     //       }
+     //       else
+     //       {
+     //           searchString = currentFilter;
+     //       }
+
+     //       ViewData["CurrentFilter"] = searchString;
+
+     //       var students = from s in _context.Students
+     //                      select s;
+
+     //       if (!String.IsNullOrEmpty(searchString))
+     //       {
+     //           students = students.Where(s => s.LastName.Contains(searchString)
+     //                                  || s.FirstMidName.Contains(searchString));
+     //       }
+
+     //       if (string.IsNullOrEmpty(sortOrder))
+     //       {
+     //           sortOrder = "LastName";
+     //       }
+
+     //       bool descending = false;
+     //       if (sortOrder.EndsWith("_desc"))
+     //       {
+     //           sortOrder = sortOrder.Substring(0, sortOrder.Length - 5);
+     //           descending = true;
+     //       }
+
+     //       if (descending)
+     //       {
+     //           students = students.OrderByDescending(e => EF.Property<object>(e, sortOrder));
+     //       }
+     //       else
+     //       {
+     //           students = students.OrderBy(e => EF.Property<object>(e, sortOrder));
+     //       }
+
+     //       int pageSize = 3;
+     //       return View(await PaginatedList<Student>.CreateAsync(students.AsNoTracking(),
+     //           pageNumber ?? 1, pageSize));
+     //   }
+
         // GET: Students/Details/5
         public async Task<IActionResult> Details(int? id)
         {
