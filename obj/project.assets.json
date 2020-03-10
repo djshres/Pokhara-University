@@ -8580,17 +8580,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Crossover\\.nuget\\packages\\": {}
+    "C:\\Users\\Crossover\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Microsoft Docs\\ContosoUniversity\\ContosoUniversity.csproj",
+      "projectUniqueName": "E:\\Projects\\Microsoft-Docs\\ContosoUniversity\\ContosoUniversity.csproj",
       "projectName": "ContosoUniversity",
-      "projectPath": "E:\\Microsoft Docs\\ContosoUniversity\\ContosoUniversity.csproj",
+      "projectPath": "E:\\Projects\\Microsoft-Docs\\ContosoUniversity\\ContosoUniversity.csproj",
       "packagesPath": "C:\\Users\\Crossover\\.nuget\\packages\\",
-      "outputPath": "E:\\Microsoft Docs\\ContosoUniversity\\obj\\",
+      "outputPath": "E:\\Projects\\Microsoft-Docs\\ContosoUniversity\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\Crossover\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",

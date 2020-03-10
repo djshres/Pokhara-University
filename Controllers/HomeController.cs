@@ -43,7 +43,6 @@ namespace ContosoUniversity.Controllers
             //        EnrollmentDate = x.Key,
             //        StudentCount = x.Count()
             //    });
-
             //return View(await data.AsNoTracking().ToListAsync());
 
             //Method3

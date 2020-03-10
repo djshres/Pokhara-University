@@ -26,7 +26,7 @@
             string selectedRow = "";
             if (item.ID == (int?)ViewData["InstructorID"])
             {
-                selectedRow = "success";
+                selectedRow = "bg-success";
             }
             <tr class="@selectedRow">
                 <td>
@@ -78,7 +78,7 @@
             string selectedRow = "";
             if (item.CourseID == (int?)ViewData["CourseID"])
             {
-                selectedRow = "success";
+                selectedRow = "bg-danger";
             }
             <tr class="@selectedRow">
                 <td>
